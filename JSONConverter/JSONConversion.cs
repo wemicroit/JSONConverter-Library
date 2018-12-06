@@ -6,12 +6,12 @@ using WeMicroIt.Utils.JSONConverter.Interfaces;
 
 namespace WeMicroIt.Utils.JSONConverter
 {
-    public class JSONConverter : IJSONConverter
+    public class JSONConversion : IJSONConversion
     {
         private JsonSerializerSettings JSONSettings { get; set; }
         private Formatting JSONFormatter { get; set; }
 
-        public JSONConverter()
+        public JSONConversion()
         {
             JSONFormatter = Formatting.Indented;
         }
