@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0; net461</TargetFrameworks>
+    <RootNamespace>WeMicroIt.Utils.JSONConverter</RootNamespace>
+    <AssemblyName>WeMicroIt.Utils.JSONConverter</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>James Thompson</Authors>
+    <Company>WeMicroIt</Company>
+    <Version>0.7.0</Version>
+    <Product>JSONConverter - Library</Product>
+    <Copyright>2018</Copyright>
+    <PackageTags>JSON Converter NewtonSoft</PackageTags>
+    <Description>A simple wrapper for the json parser so that the parsing can occure in a consistent Manor.</Description>
+    <PackageLicenseUrl>https://github.com/wemicroit/JSONConverter-Library/blob/rc/LICENSE</PackageLicenseUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/wemicroit/JSONConverter-Library/rc/JSONConverter/Resources/Logo.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/wemicroit/JSONConverter-Library</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/wemicroit/JSONConverter-Library</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>
