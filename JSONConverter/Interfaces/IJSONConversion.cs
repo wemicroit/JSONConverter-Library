@@ -4,7 +4,7 @@ using System.Text;
 
 namespace WeMicroIt.Utils.JSONConverter.Interfaces
 {
-    public interface IJSONConverter
+    public interface IJSONConversion
     {
     }
 }

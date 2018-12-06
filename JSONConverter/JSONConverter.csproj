@@ -7,7 +7,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>James Thompson</Authors>
     <Company>WeMicroIt</Company>
-    <Version>0.7.0</Version>
+    <Version>0.7.1</Version>
     <Product>JSONConverter - Library</Product>
     <Copyright>2018</Copyright>
     <PackageTags>JSON Converter NewtonSoft</PackageTags>
